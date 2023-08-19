@@ -1,0 +1,24 @@
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.csv-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.csv-table td, .csv-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.csv-table th {
+  background-color: #f2f2f2;
+}
+
+.csv-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
